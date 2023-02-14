@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML</title>
+</head>
+<body>
+    <center><h1>Formularios HTML</h1><hr></center>
+    <label for="Nombre ">Nombre</label>
+    <input type="text" placeholder="Teclea el nombre del alumno" requiered><br><br>
+
+    <label for="Edad">Edad</label>
+    <input type="number"placeholder="tecla la edad" required><br><br>
+
+    <label for="fecha de nacimiento">fecha de nacimiento</label>
+    <input type="date" required><br><br>
+
+    <input type="radio" name="sexo" requiered>femenino
+    <input type="radio" name="sexo" requiered>masculino <br><br>
+
+    <label for="direcion">direccion</label><br>
+    <textarea name="direccion" id="" cols="30" rows="10" placeholder="teclea direccion"></textarea><br>
+
+    <label for="escuela">escuela</label>
+    <select name="escuela" id="">
+        <option value="">seleciona una escuela</option>
+        <option value="cetis">CETis 107</option>
+        <option value="cbtis">Cbtis 224</option>
+        <option value="otra">otra </option>
+    </select><br><br>
+    
+    <label for="materias">materias cursadas:</label><br>
+    <input type="checkbox" name="materias[]">fisica <br>
+    <input type="checkbox" name="materias[]">calculo <br>
+    <input type="checkbox" name="materias[]">ingles <br>
+    <input type="checkbox" name="materias[]">programacion web <br><br>
+
+    <label for="color">color prefedido</label>
+    <input type="color" required><br><br>
+
+    <label for="imagen_perfil">imagen perfil</label><br>
+    <input type="file" accept="png/jpg"><br><br>
+
+    <input type="submit" value="guardar alumno"><br><br><br>
+
+</body>
+<hr>Jose Luis Zamora Nava &copy; practica 5 13-02-2023
+</html>
