@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro de alumnos</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <h1>registro de alumno</h1>
+        <form action="">
+            <div class="form-group">
+                <label for="">nombre:</label>
+                <input name="nombre" type="text" class="form-control">
+            </div><br>
+            <div class="form-group">
+                <label for="">edad:</label>
+                <input name="edad" type="number" class="form-control">
+                </div><br>
+                <div class="form-control">
+                    <label for="">escuela</label>
+                    <select name="escuela">
+                        <option value="seleciona una escuela"></option>
+                        <option value="CETIS 107">cetis 107</option>
+                        <option value="CBTIS 224">cbtis</option>
+                        <option value="COBAES">cobaes</option>
+                    </select>
+                </div><br>
+                <div class="form-control">
+                    <label for="fecha de ingreso"></label>
+                    <input name="fecha_ingreso" type="date" class="form-control">
+                </div><br>
+                <div class="form-group">
+                    <label for="direccion"></label>
+                    <textarea name="direccion" cols="30" rows="4" class="form-control"></textarea>
+                </div><br>
+                <div>
+                    <input type="submit" class="btn btn-primary">
+                </div>
+        </form>
+    </div>
+</body>
+</html>
